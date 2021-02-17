@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/style.css" rel="stylesheet" />
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/jquery.scrollUp.js"></script>
+    <style>
+      #scrollUp {
+        bottom: 20px;
+        right: 20px;
+        padding: 19px;
+        background-image: url("../Images/top.png");
+        color: #fff;
+      }
+    </style>
     <title>Photography</title>
   </head>
 
@@ -237,5 +248,16 @@
       integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj "
       crossorigin="anonymous "
     ></script>
+    <script type="text/javascript">
+      $(function () {
+        $.scrollUp({
+          scrollDistance: 200,
+          scrollFrom: "top",
+          scrollSpeed: 100,
+          scrollText: "Scroll to top",
+          scrollImg: true,
+        });
+      });
+    </script>
   </body>
 </html>
