@@ -1,0 +1,51 @@
+.fullPage {
+    background: rgba(0, 0, 0, .85);
+}
+
+.name {
+    text-decoration: none;
+    color: white;
+}
+
+.name:hover {
+    color: black;
+    background: rgba(0, 0, 0, .2);
+}
+
+.nav-link {
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-link:hover {
+    background: white;
+    color: rgb(0, 182, 253);
+    transition: 0.7s;
+}
+
+header {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+}
+
+.name,
+h1,
+.myText {
+    font-family: courier, arial, helvetica;
+}
+
+hr {
+    margin-top: 2%;
+    padding: .2%;
+    background: rgb(238, 238, 238);
+}
+
+.bg {
+    background: rgba(255, 254, 254, 0.912);
+}
